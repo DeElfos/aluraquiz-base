@@ -40,7 +40,7 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>
-          AluraQuiz -
+          Elphen Quiz -
           {db.title}
         </title>
       </Head>
