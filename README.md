@@ -1,6 +1,6 @@
-# AluraQuiz Base
+# Elphen Quiz Base
 
-Seja bem vindo ao projeto base do AluraQuiz!!! Passos fundamentais:
+Seja bem vindo ao projeto base do Elphen Quiz!!! Passos fundamentais:
 - Marque esse projeto com uma estrela
 - Siga as instruções das aulas e conteúdo extra da Imersão React Next.js
 - Faça o deploy na Vercel e compartilhe
@@ -14,7 +14,7 @@ Seja bem vindo ao projeto base do AluraQuiz!!! Passos fundamentais:
 - [Siga os passos](/CONTRIBUTING.md)
 
 ## Onde está o Layout base?
-- [Link](https://www.figma.com/file/cg1MIzSRRss8ggpypQbmdD/AluraQuiz?node-id=0%3A1)
+- [Link](https://www.figma.com/file/cg1MIzSRRss8ggpypQbmdD/Elphen Quiz?node-id=0%3A1)
 
 
 ## Como pegar cores tema diferentes para minha app?
