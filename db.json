@@ -1,45 +1,104 @@
 {
-  "bg": "https://www.hitalent.co/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmJDQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1452099b706ad7d079f7a3a4dd5d702ebeeae45f/HiTalent.png",
-  "title": "Quiz JavaScript #AluraQuiz",
-  "description": "Um quiz rápido sobre o mundo do JavaScript",
+  "bg": "https://live.staticflickr.com/65535/50891838817_2720eeda99_b.jpg",
+  "title": "Quiz Bootstrap #ElphenSistemas",
+  "description": "Um quiz rápido sobre o mundo do Bootstrap",
   "questions": [
     {
       "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
-      "title": "Qual a diferença entre = , == e === ?",
+      "title": "O sistema de grade Bootstrap é baseado em quantas colunas?",
       "description": "Pergunta fácil em!",
       "answer": 1,
       "alternatives": [
-        "São a mesma coisa",
-        "O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica valor e tipo de variável."
+        "6",
+        "12",
+        "9",
+        "14"
       ]
     },
     {
       "image": "https://media.giphy.com/media/Ie2Hs3A0uJRtK/giphy.gif",
-      "title": "Que tipos de dados são suportados em JavaScript?",
+      "title": "No Bootstrap, o conteúdo deve ser colocado dentro de...",
       "description": "E agora? Você sabe?",
+      "answer": 2,
+      "alternatives": [
+        "Rows",
+        "Containers",
+        "Cols"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "Se você quiser ter 3 colunas iguais no Bootstrap, qual classe você usaria?",
+      "description": "São 3 colunas iguais, não uma coluna com tamanho 3!",
+      "answer": 1,
+      "alternatives": [
+        ".col-md-3",
+        ".col-md-4",
+        ".col-md-7",
+        ".col-md-12"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "Qual nome de classe você faria um contêiner de largura total no Bootstrap?",
+      "answer": 1,
+      "alternatives": [
+        ".container-full",
+        ".container-fluid",
+        ".container-width",
+        ".container-fw"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "Quais são as principais diferenças entre ID e classe",
+      "answer": 3,
+      "alternatives": [
+        "As classes são para uso com spans e IDs são para uso com DIVs",
+        "As classes devem ser usadas apenas uma vez por página, mas os IDs podem ser usados ​​quantas vezes você quiser em uma página",
+        "IDs são melhores do que classes",
+        "Os IDs devem ser usados ​​apenas uma vez por página, mas as classes podem ser usadas várias vezes por página, e um elemento pode ter m7ais de uma classe, mas deve ter apenas um ID"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "O que esta metatag faz? <meta name = \"viewport\" content = \"width = device-width, initial-scale = 1\">",
       "answer": 0,
       "alternatives": [
-        "Number, String, Undefined, Null e Bool.",
-        "Int, String, Undefined, Null e Bool."
+        "Impede que os navegadores dimensionem sites de desktop no celular",
+        "Diz ao navegador para procurar consultas de mídia no arquivo CSS",
+        "Torna um site responsivo automaticamente"
       ]
     },
     {
       "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Qual a diferença de window e global?",
-      "answer": 1,
+      "title": "Um grande desafio com design responsivo é encontrar um equilíbrio entre as necessidades de conteúdo para dispositivos móveis e desktops. Um site para desktop tem muito espaço visual que geralmente é preenchido com carrosséis, vídeos, grandes imagens de fundo paralaxe e grandes blocos de texto.",
+      "answer": 0,
       "alternatives": [
-        "São a mesma coisa",
-        "window é o escopo global no browser, e global no node"
+        "Verdadeiro",
+        "Falso"
       ]
     },
     {
       "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Qual a forma antiga de trabalhar com AJAX na Web?",
+      "title": "Quais das alternativas é utilizada para adicionar Bootstrap ao seu site?",
       "answer": 1,
       "alternatives": [
-        "JSONHttpRequest",
-        "XMLHttpRequest",
-        "fetch"
+        "Vinculando aos arquivos CSS / JS no GitHub",
+        "Vinculando a uma versão CSS / JS pré-compilada via CDN ou localmente",
+        "Pedindo por favor para que ele adicione",
+        "Adicionando os estilos CSS em uma tag de estilo no cabeçalho do documento"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "Quais são os três elementos principais da grade Bootstrap listados na ordem adequada.",
+      "answer": 2,
+      "alternatives": [
+        "CRC = .col > .row > .container",
+        "GRC = .grid > .row > .col",
+        "CRC = .container > .row > .col",
+        "RC = .row > .col"
       ]
     }
   ],

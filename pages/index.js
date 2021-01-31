@@ -24,7 +24,7 @@ import Button from '../src/components/Button';
 const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
-  padding-top: 45px;
+  // padding-top: 45px;
   margin: auto 10%;
   @media screen and (max-width: 500px) {
     margin: auto;
@@ -45,7 +45,7 @@ export default function Home() {
         </title>
       </Head>
       <QuizContainer>
-        <QuizLogo />
+        { /*<QuizLogo />*/}
         <Widget
           as={motion.section}
           transition={{ delay: 0, duration: 0.5 }}
@@ -74,7 +74,7 @@ export default function Home() {
                 value={name}
               />
               <Button type="submit" disabled={name.length === 0}>
-                {`Jogar ${name}`}
+                { name ? `Bora Jogar, ${name} ?` : 'Insira seu nome pra começar'}
               </Button>
             </form>
           </Widget.Content>
@@ -93,7 +93,7 @@ export default function Home() {
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
-            <ul>
+            {/* <ul>
               {db.external.map((linkExterno) => {
                 const [projectName, githubUser] = linkExterno
                   .replace(/\//g, '')
@@ -112,6 +112,18 @@ export default function Home() {
                   </li>
                 );
               })}
+            </ul> */}
+            <ul>
+              <li>
+                <Widget.Topic >
+                  Em breve
+                </Widget.Topic>
+              </li>
+              <li>
+                <Widget.Topic >
+                  Em breve
+                </Widget.Topic>
+              </li>
             </ul>
           </Widget.Content>
         </Widget>

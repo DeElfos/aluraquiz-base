@@ -29,16 +29,16 @@ export default function Footer(props) {
   return (
     // eslint-disable-next-line react/jsx-props-no-spreading
     <FooterWrapper {...props}>
-      <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
+      <a href="https://www.elphen.com.br/">
+        <img src="https://live.staticflickr.com/65535/50892834372_156ca36751_o.png" alt="Logo Alura" />
       </a>
       <p>
-        Orgulhosamente criado durante
+        Orgulhosamente criado por
         {' '}
         a
         {' '}
-        <a href="https://www.alura.com.br/">
-          <span>Imersão React da Alura</span>
+        <a href="https://www.elphen.com.br/">
+          <span>Elphen Sistemas Educacionais</span>
         </a>
       </p>
     </FooterWrapper>

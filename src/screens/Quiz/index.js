@@ -206,7 +206,7 @@ export default function QuizPage({ externalQuestions, externalBg }) {
   return (
     <QuizBackground backgroundImage={bg}>
       <QuizContainer>
-        <QuizLogo />
+        {/* <QuizLogo /> */}
         {screenState === screenStates.QUIZ && (
           <QuestionWidget
             question={question}
